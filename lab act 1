@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Registration Form</title>
+    </head>
+    <body>
+        <h1>Student Registration Form</h1>
+
+        <label for="fullname" > Full Name:</label>
+        <input type = "text" name="Fn" id="Fn">
+
+        <br>
+        <br>
+
+        <label for="email" > Email: </label>
+        <input type ="text" name="Em" id="Em">
+
+        <br>
+        <br>
+
+        <label for="Age" > Age: </label>
+        <input type="number" name="Ag" id="Ag">
+
+        <br>
+        <br>
+
+        <label> Gender: </label>
+        <input type="radio" name="gender" value="Male">
+        <label>Male</label>
+        <input type="radio" name="gender" value="female">
+        <label>Female</label>
+
+        <br>
+        <br>
+
+        <label for = "Hobbies" > Hobbies: </label>
+        <input type="checkbox" name="Hobbies" value="Reading">
+        <label>Drinking Matcha</label>
+        <input type="checkbox" name="Hobbies" value="Gaming">
+        <label>Copying Rene Baterbonia</label>
+        <input type ="checkbox" name="Hobbies" value="Music">
+        <label>Music</label>
+
+        <br>
+        <br>
+
+        <label for = "Courses" > Course: </label>
+        <select id = "BSIT" > 
+        <option for = "bsit" > BSIT </option>
+        <option for = "bscs" > BSCS </option>
+        </select>
+
+        <button type = "submit" > Submit </button>
+
+        <br>
+        <hr>
+ 
+
+        <h2>Favorite Foods</h2>
+
+        <ul>
+            <li>Pizza</li>
+            <li>Burger</li>
+            <li>Ice Cream</li>
+        </ul>
+
+        <h2>Programming Languages</h2>
+
+        <ol>
+            <li>C++</li>
+            <li>Java</li>
+            <li>Python</li>
+        </ol>
+
+        <h2>HTML Terms</h2>
+
+        <dl>
+
+        <dt>HTML</dt>
+        <dd>Hypertext Markup Language</dd>
+
+        <dt>Tag</dt>
+        <dd>Used to create HTML elements.</dd>
+
+        <dt>Element</dt>
+        <dd>A complete HTML structure consisting of tags and content.</dd>
+        
+        </dl>
+
+        <hr>
+
+        <h2>Student Information</h2>
+
+        <table border="1">
+            <tr>
+                <th colspan="4">Student Information</th>
+            </tr>
+
+            <tr>
+                <th>Student Id</th>
+                <th>Name</th>
+                <th>Course</th>
+                <th>Year Level</th>
+            </tr>
+
+            <tr>
+                <td>24-01265</td>
+                <td>John Mickell F. Fajarito</td>
+                <td>BSIT</td>
+                <td>3rd Year</td>
+            </tr>
+
+            <tr>
+                <td>2026-002</td>
+                <td>Jaime Alfonso Aloria</td>
+                <td>BSIT</td>
+                <td>3rd Year</td>
+            </tr>
+
+            <tr>
+                <td>2026-003</td>
+                <td>Kenn Adrian Sarmiento</td>
+                <td>BSIT</td>
+                <td>3rd Year</td>
+            </tr>
+        </table>
+
+    </body>
+
+</html>
